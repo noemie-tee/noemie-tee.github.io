@@ -45,7 +45,7 @@ Main Graph > Cupola Section — Custom HLSL
 
 Custom HLSL: Point Generation 
 
-```python
+```HLSL
 // Getting and naming the input variables
 
 float3 RoofPosIni = PosIni_GetFloat3 ( Out_DataIndex, 0,'PosIni');
