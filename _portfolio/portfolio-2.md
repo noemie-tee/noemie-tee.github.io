@@ -6,6 +6,8 @@ collection: portfolio
 
 My goal was to build a tool that generates a building from a limited number of assets and inputs.
 
+<img src='/images/barn thumbnail.png'>
+
 **Ease of use**
 
 The user is able to drag the PCG blueprint into the level and to customize the look of thebarn using the parameters. 
