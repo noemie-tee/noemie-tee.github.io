@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Noemie Tee / Portfolio"
 title_separator          : "-"
 name                     : &name "Noemie Tee"
@@ -24,11 +24,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  name             : "Noemie Tee"
+  pronouns         : "she/her"  
+  bio              : "a Technical Artist"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : #"Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
 
