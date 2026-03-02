@@ -6,7 +6,7 @@ collection: portfolio
 
 My goal was to build a tool that generates a building from a limited number of assets and inputs.
 
-<img src='/images/barn thumbnail.png'>
+<img src='/images/barn%20thumbnail.png'>
 
 **Ease of use**
 
