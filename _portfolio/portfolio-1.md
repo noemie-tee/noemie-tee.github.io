@@ -1,6 +1,6 @@
 ---
 title: "Unreal Vine Maker Tool"
-excerpt: "Unreal in-editor tool that creates realistic vine meshes"
+excerpt: "Unreal in-editor tool that creates realistic vine meshes <br/><img src='/images/vines.png'>"
 collection: portfolio
 ---
 
