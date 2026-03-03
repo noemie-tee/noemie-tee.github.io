@@ -7,7 +7,7 @@ collection: portfolio
 
 My goal was to build a tool that generates a building from a limited number of assets and inputs.
 
-<img src='portfolio/images/barn%20thumbnail.png'>
+<img src='/images/barn%20thumbnail.png'>
 
 **Ease of use**
 
@@ -42,13 +42,13 @@ Rules for visual consistency:
 
 Barn Building — Main Graph
 
-<img src='https://github.com/noemie-tee/portfolio/blob/master/images/Barn%20-%20PCG%20-%20Full%20Graph.png'>
+<img src='/images/Barn%20-%20PCG%20-%20Full%20Graph.png'>
 
 Barn Lower Levels — Subgraph
-<img src='https://github.com/noemie-tee/portfolio/blob/master/images/Barn%20-%20PCG%20-%20Lower%20Levels.png'>
+<img src='/images/Barn%20-%20PCG%20-%20Lower%20Levels.png'>
 
 Main Graph > Cupola Section — Custom HLSL
-<img src='https://github.com/noemie-tee/portfolio/blob/master/images/Barn%20-%20PCG%20-%20Cupola.png'>
+<img src='/images/Barn%20-%20PCG%20-%20Cupola.png'>
 
 Custom HLSL: Point Generation 
 
