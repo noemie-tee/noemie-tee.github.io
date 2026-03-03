@@ -13,7 +13,7 @@ I'm Noemie Tee, a technical artist specialized in Unreal Engine with a passion f
 </br> :hammer_and_wrench: Tools that simplify artistic processes,
 </br> :art: and shaders authoring. </br>
 
-My skills include modeling, texturing and optimizing assets. Furthermore, I have experience presenting complex ideas to various audiences such as creatives and business stakeholders
+My skills include modeling, texturing and optimizing assets. Furthermore, I have experience presenting complex ideas to various audiences such as creatives and business stakeholders.
 
 </br>
 
