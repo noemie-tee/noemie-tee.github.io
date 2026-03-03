@@ -6,8 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<br>
-<br>
+
 I'm Noemie Tetiali, a technical artist specialized in Unreal Engine with a passion for all kinds of: <br/>
 <br>:house_with_garden: Procedural Content Generation  <br/>
 <br>:hammer_and_wrench: Tools that simplify artistic processes,  <br/>
