@@ -70,12 +70,17 @@ Noise implementation 1/2
 - On average, the computation for the vines (80 branches, 1.7m max branch length) takes 4.1 seconds (including the time the user takes to draw the spline) and the mesh spawn using the EUW 1.1ms.
 
 Spline Creation
+<br/><img src='/images/Vine%20-%20Profile%20-%20Spline%20Creation.png'>
 
 Static Mesh Actor spawning
+<br/><img src='/images/Vine_Profiling_AssetCreation.png'>
 
 Static mesh asset creation
+<br/><img src='/images/Vine_Profiling_EUW.png'>
 
 PCG Profiler
+<br/><img src='/images/Vine_PCG_Profiler.png'>
+
 
 In normal conditions, the tool works pretty smoothly. In edge cases, where there is a lot of splines drawn and meshes generated at the same time, the processing times can take several minutes or may completely freeze the editor. 
 
