@@ -1,6 +1,6 @@
 ---
 title: "The barn house"
-excerpt: <img src='/images/barn%20little%20thumbnail.png' width=50 height=50> A PCG building that with comes with parameters to create a simple and customized barn"
+excerpt: <img src='/images/barn%20little%20thumbnail.png' width=50 height=50> A PCG building that with comes with parameters to create a simple and customized barn
 
 collection: portfolio
 ---
@@ -29,7 +29,7 @@ Rules for visual consistency:
 - Only one higher level is added on top.
 - The roofs are scaled and later their textures are world aligned.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/bcWxGyzatkY"> </iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/XFzvFoWBa-I"> </iframe>
 
 
 **PCG System Architecture** 
@@ -94,6 +94,7 @@ Out_SetPosition(Out_DataIndex,  ElementIndex, Pos);
 Thanks to the simplicity of system and meshes, spawn time and memory usage are very minimal.
 
 PCG Profiling:
+<img src='/images/Barn_PCG_Profiler.png'>
 
 **Limitations** **and potential improvements** 
 
@@ -104,18 +105,30 @@ PCG Profiling:
 **Art breakdown** 
 
 Barn Mini Kit — modeled in Blender :
+<img src='/images/Barn%20-%20Mini%20Kit.png'>
 
 **Materials** — **Textures**
 
 Barn Walls
-
+<img src='/images/Barn_Walls_SubstanceDesigner.png'>
 
 Exterior wall material for the barns (intact version)
+<img src='/images/barn%20walls%20damaged.png'>
 
 The graph also exports a texture for moss stains and another one for chipped paint to be added and controlled in engine
+<img src='/images/barn%20walls%20no%20damage.png'>
+
 
 Unreal Master Material :
+<img src='/images/Barn%20-%20Material.png'>
 
 **Roof Tiles**
 
-Substance Designer graph
+Substance Designer graph :
+<img src='/images/Barn_RoofTiles_SubstanceDesigner.png'>
+
+Detail:
+<img src='/images/Roof_Tiles_SD_Detail.png'>
+
+Result
+<img src='/images/barn%20roof%20cropped.png'>
