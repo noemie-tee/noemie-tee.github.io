@@ -27,7 +27,8 @@ We want it to look like Perlin noise – soft, contained between maximum and min
 In a nutshell, Perlin Noise is a smooth and organic looking noise that was developped by Ken Perlin in 1982 to simulate surfaces or volume such as terrain, rocks or clouds. 
 For our vine growth example, we will only need a one-dimensional Perlin noise: a wiggly line that we will be slightly pointing toward the sky.
 
-https://en.wikipedia.org/wiki/File:Perlin_noise_example.png
+<img src='https://en.wikipedia.org/wiki/File:Perlin_noise_example.png'>
+
 
 We can obtain a Perlin noise in two simple steps:
 creating random values contained in a range
@@ -65,10 +66,9 @@ We store these values into a second array called Random Ys. The additional index
 
 Now let's get the smoothed values in between. Let's create a third array “Interpolated Ys” that will contain both our random values and the interpolated ones. 
 
-For each of these indices:
-we find out whether they are a random set value or if they are an in-between one
-if set value we add it to the array as is
-otherwise, by using the closest “Res Indices” and associated noise value “Random Ys” above and below it, we are able to interpolate it and to choose the degree of interpolation. In our case 2 is a fitting choice. The calculated value is added to “Interpolated Ys”.
+For each of these indices, we find out whether they are a random set value or if they are an in-between one
+--> if set value we add it to the array as is
+--> otherwise, by using the closest “Res Indices” and associated noise value “Random Ys” above and below it, we are able to interpolate it and to choose the degree of interpolation. In our case 2 is a fitting choice. The calculated value is added to “Interpolated Ys”.
 
 <img src='/images/Screenshot%202026-03-10%20041157.png'>
 
