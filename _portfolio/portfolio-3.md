@@ -27,23 +27,19 @@ def rename_and_relocate_assets(selected_assets) :
 
         if not EAL.does_directory_exist(SM_dir_path):
             EAL.make_directory(SM_dir_path)
-        else:
-            pass
+
 
         if not EAL.does_directory_exist(MM_dir_path):
             EAL.make_directory(MM_dir_path)
-        else:
-            pass
+
 
         if not EAL.does_directory_exist(MI_dir_path):
             EAL.make_directory(MI_dir_path)
-        else:
-            pass
+
 
         if not EAL.does_directory_exist(T_dir_path):
             EAL.make_directory(T_dir_path)
-        else:
-            pass
+
 
 
 
@@ -52,8 +48,8 @@ def rename_and_relocate_assets(selected_assets) :
 
             # extracting the initial name of the asset
             previous_asset_name = asset.get_name()
-            previous_subfolder = asset.get_path_name().replace("/Game","")
-            previous_subfolder = previous_subfolder.rsplit('/')[0]
+            previous_subfolder_temp = asset.get_path_name().replace("/Game","")
+            previous_subfolder = previous_subfolder_temp.rsplit('/')[0]
            
 
             # building the new name and path for the asset
