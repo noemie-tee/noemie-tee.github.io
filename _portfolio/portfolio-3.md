@@ -1,6 +1,6 @@
 ---
 title: "Asset Validation Tool : Renaming and Relocating"
-excerpt: "<img src='/images/asset%20validation%20tool.png' width=50 height=50>Unreal right-click tool that renames assets and place them into relevant folders. "
+excerpt: "<img src='/images/asset%20validation%20tool.jpg' width=50 height=50>Unreal right-click tool that renames assets and place them into relevant folders. "
 collection: portfolio
 ---
 
